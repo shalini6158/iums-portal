@@ -1,0 +1,80 @@
+body
+{
+background: url(149543429616.jpg);
+background-size: 1500px;
+
+
+}
+.signin
+{
+	
+	width: 320px;
+    height: 480px;
+    background-color: white;
+    box-sizing: border-box;
+   
+    transform: translate(600px, 180px);
+opacity: 0.6;
+
+}
+h1{
+	text-align: center;
+	color: black;
+	padding-top: 30px;
+}
+.signin input[type="submit"]
+{
+	 border: none;
+	 outline: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 15px;
+
+
+    
+
+}
+.signin input[type="text"], input[type="password"]
+{
+
+	border: none;
+	background-color: transparent;
+	 outline: none;
+	  border-bottom: 1px solid black;
+	  margin-top: 15px;
+
+}
+
+.signin p
+{
+	text-align: center;
+
+}
+.signin input[type="submit"]:hover
+{
+    
+    color: red;
+
+}
+.signin a
+{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 12px;
+}
+.submitt
+{
+	 border: none;
+	 outline: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    color:#000000;
+    background-color: #C0C0C0;
+}
+

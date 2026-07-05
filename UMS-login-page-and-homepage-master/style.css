@@ -1,0 +1,96 @@
+body
+{
+	
+ background: url("second/uiet.png");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+	
+	.loginbox {
+    width: 320px;
+    height: 500px;
+    background-color: rgba(255,255,255,0.9);
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	padding-top: 50px;
+}
+loginbox input[type="text"],
+.loginbox input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.loginbox p
+{
+	text-align: center;
+	color: red;
+	font-family: sans-serif;
+
+}
+.loginbox input[type="button"]:hover
+{
+    
+    color: red;
+
+}
+.loginbox a
+{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 12px;
+}
+.loginbox a:hover
+{
+
+    color: red;
+}
+.loginbox img[src="android_icon.png"]
+{
+	
+	background-color: grey;
+	height: 50px;
+	
+}
+
+.loginbox img[src="apple_icon.png"]
+{
+    background-color: grey;
+	height: 50px;
+
+}
+.row {
+  display: flex;
+  padding: 5px;
+  float: left;
+  margin-left: 100px;
+
+}
+
+.column {
+  flex: 50%;
+  margin-left: 5px;
+
+}
+.tsp 
+{
+	
+	color:red;
+	
+	background-color: transparent;
+
+}
+
+
+

@@ -1,0 +1,230 @@
+body
+{
+background: url("second/uiet.png");
+background-size: 1500px;
+
+}
+.homee
+{
+	box-sizing: border-box;
+	width: 100%;
+	height: 150px;
+	
+	background-color: skyblue;
+	opacity: 0.6s;
+
+	font-family: sans-serif;
+	border: 1px solid black;
+
+}
+ .row 
+ {
+  display: flex;
+
+  padding: 5px;
+  
+  
+}
+
+.column {
+  flex: 50%;
+  display: inline-flex;
+	list-style: none;
+	margin: 15px;
+	margin-top: 40px;
+	padding-right: 100px;
+
+
+}
+.column a
+{
+	text-decoration: none;
+	color: black;
+	border-radius: 3;
+
+}
+
+.dropdown-content a
+{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	margin: 15px;
+
+	font-style: sans-serif;
+color: white;
+}
+.dropdown-content 
+{
+	display: none;
+	border: 1px solid white;
+	background-color: grey;
+	width: 300px;
+	font-size: 15px;
+	position: absolute;
+
+	z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+
+}
+.dropdown-content a:hover {background-color: red;}
+.image
+{
+	margin-top: 30px;
+
+}
+.image img
+{
+	
+	border-radius: 100px;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+.ppp
+{
+	padding-left: 55px;
+
+	
+}
+.image
+{
+	box-sizing: border-box;
+	background-color: white;
+	opacity: 0.8;
+	
+	height: 500px;
+	width: 300px;
+	font-family: sans-serif;
+	flex: -30%;
+	margin-top: 15px;
+}
+.pp
+{
+	margin-top: 30px;
+	text-align: center;
+}
+.ss
+{
+ 
+ box-sizing: border-box;
+height: 500px;
+width: 500px;
+
+}
+.bs
+{
+	display: flex;
+}
+.bs .attendance
+{
+box-sizing: border-box;
+height: 200px;
+width: 1300px;
+background-color: white;
+	opacity: 0.7;
+
+
+
+
+margin-top: 15px;
+margin-left: 10px;
+
+
+}
+.attendance{
+	padding-left: 20px;
+	
+	padding-top: 10px; 
+}
+.attendance h1
+{
+
+padding-left: 500px;
+margin-top: 10px;
+
+
+
+
+}
+
+
+.ab .announcement
+{
+	box-sizing: border-box;
+height: 183px;
+width: 1300px;
+background-color: white;
+	opacity: 0.6;
+margin-left: 10px;
+}
+.attendance p
+{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.announcement
+{
+	margin-top: 10px;
+	font-family: sans-serif;
+}
+.announcement h1
+{
+	padding-left: 500px;
+margin-top: 10px;
+padding-top: 10px;
+}
+.announcement table,th,td
+{
+	border: 1px solid red;
+	border-collapse: collapse;
+	padding-left: 10px;
+	text-align: center;
+}
+.announce 
+{
+	box-sizing: border-box;
+height: 180px;
+width: 600px;
+background-color: white;
+	opacity: 0.6;
+margin-left: 10px;
+margin-top: 10px;
+padding-top: -10px;
+
+ 
+}
+.announce h1,.teacher h1
+{
+	text-align: center;
+}
+.teacher
+{
+	box-sizing: border-box;
+height: 180px;
+width: 60%;
+background-color: white;
+	opacity: 0.6;
+margin-left: 10px;
+margin-top: 10px;
+padding: 0px;
+
+}
+.last
+{
+	display: flex;
+}
+.announce li ,.teacher li
+{
+	font-family: sans-serif;
+	margin-top: 8px;
+}
+
+
+
+
+
